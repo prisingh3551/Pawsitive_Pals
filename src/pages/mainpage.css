@@ -1,0 +1,116 @@
+#name{
+    font-family: 'Brush Script Std';
+    font-size: 30px;
+    padding: 10px 0px 2px 5px;
+    margin: 0px;
+}
+.header{
+    background-color: #DDD0CB;
+}
+#logo-img{
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin-left: 50px;
+}
+#search{
+    width: 500px;
+}
+#categories{
+    font-size: 24px;
+    padding: 12px 180px;
+    background-color: #373029;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    color: #DDD0C8;
+}
+.darkGap{
+    height: 10px;
+    background-color: #373029;
+}
+.lightGap{
+    height: 10px;
+    background-color: #DDD0C8;
+}
+.main{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color:  #DDD0C8;
+    color: #373029;
+}
+#img-bg{
+    background-image: url('../images/pet.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 600px;
+}
+#tagline{
+    padding-top: 250px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+}
+
+#loginBtn, #signupBtn, #quizBtn{
+    background-color: #373029;
+    color: #DDD0C8;
+}
+
+#articles{
+    background-color: #DDD0C8;
+    color: #373029;
+    padding: 50px;
+    justify-content: center;
+}
+#article-dog, #article-cat{
+    background-color: #373029;
+    color: #DDD0C8;
+    border: 1px solid #373029;
+    border-radius: 50px;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#moreCats{
+    margin-left: -25px;
+    padding: 0px;
+    width: 480px;
+    border-radius: 50px;
+}
+
+#adr{
+    display: flex;
+    justify-content: space-around;
+    background-color:#DDD0C8;
+    margin-bottom: -5px;
+}
+#adopt, #donate, #rehome{
+    color: #DDD0C8;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: #373029;
+    border-radius: 50px;
+    background-color: #373029;
+    height: 90px;
+}
+#about-us{
+    color: #DDD0C8;
+    background-color: #373029;
+    padding: 20px;
+}
+.read-more{
+    background-color: #DDD0C8;
+    color: #373029;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
