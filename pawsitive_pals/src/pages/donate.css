@@ -1,0 +1,57 @@
+.donateBody{
+    background-color: #DDD0CB;
+    color: #373029;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    height: 60vh;
+  }
+  .donateHeading{
+    background-color: #DDD0CB;
+    color: #373029;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding: 20px;
+  }
+  .rupees{
+    width: 350px;
+    height: 300px;
+    background-color: #373029;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+  }
+  .Rs200, .Rs500, .Rs1000{
+    font-size: 80px;
+    color: #DDD0CB;
+    margin: 70px 0px;
+  }
+  .donateBtn{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #DDD0CB;
+    border: 2px solid #373029;
+  }
+  .returnToHome{
+    display: flex;
+    background-color: #DDD0CB;
+    padding-bottom: 50px;
+  }
+  #homeBtn{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #DDD0CB;
+    border: 2px solid #373029;
+    margin: auto;
+  }
+  .donatefooter, .donateheader{
+    background-color: #373029;
+    height: 30px
+  }
